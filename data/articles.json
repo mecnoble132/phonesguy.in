@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Samsung Galaxy S24 Ultra Review",
+        "image": "assets/s24-ultra.jpg",
+        "excerpt": "The latest flagship from Samsung with insane camera performance!",
+        "content": "Full review content here...",
+        "category": "flagship",
+        "affiliate_link": "https://example.com/s24-ultra"
+    },
+    {
+        "id": 2,
+        "title": "Best Budget Phones in 2025",
+        "image": "assets/budget-phones.jpg",
+        "excerpt": "Looking for a budget-friendly phone? Here are the best options!",
+        "content": "Full review content here...",
+        "category": "budget",
+        "affiliate_link": "https://example.com/budget-phones"
+    }
+]
