@@ -11,7 +11,16 @@
     {
         "id": 2,
         "title": "Best Budget Phones in 2025",
-        "image": "assets/budget-phones.jpg",
+        "image": "assets/budget-phones.avif",
+        "excerpt": "Looking for a budget-friendly phone? Here are the best options!",
+        "content": "Full review content here...",
+        "category": "budget",
+        "affiliate_link": "https://example.com/budget-phones"
+    },
+    {
+        "id": 2,
+        "title": "Best Budget Phones in 2025",
+        "image": "assets/a25.jpg",
         "excerpt": "Looking for a budget-friendly phone? Here are the best options!",
         "content": "Full review content here...",
         "category": "budget",

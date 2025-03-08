@@ -2,17 +2,9 @@
     {
         "id": 1,
         "name": "iPhone 15 Pro Max",
-        "image": "assets/iphone-15-pro-max.jpg",
+        "image": "assets/a25.jpg",
         "price": "$1,099",
         "description": "Apple's latest flagship with an A17 Pro chip and titanium build.",
         "affiliate_link": "https://example.com/iphone-15-pro-max"
-    },
-    {
-        "id": 2,
-        "name": "Samsung Galaxy Z Fold 5",
-        "image": "assets/galaxy-z-fold-5.jpg",
-        "price": "$1,799",
-        "description": "A foldable smartphone with improved hinge durability.",
-        "affiliate_link": "https://example.com/galaxy-z-fold-5"
     }
 ]

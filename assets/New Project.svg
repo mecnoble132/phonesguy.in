@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 374 148" width="374" height="148">
+	<title>New Project</title>
+	<defs>
+		<image width="156" height="284" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzgiIGhlaWdodD0iMTQyIiB2aWV3Qm94PSIwIDAgNzggMTQyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB4PSIzLjUiIHk9IjMuNSIgd2lkdGg9IjcxIiBoZWlnaHQ9IjEzNSIgcng9IjEwLjUiIHN0cm9rZT0iIzEzNUY5RCIgc3Ryb2tlLXdpZHRoPSI3Ii8+CjxyZWN0IHg9IjI2LjUiIHk9IjMuNSIgd2lkdGg9IjI1IiBoZWlnaHQ9IjkiIHJ4PSIyLjUiIGZpbGw9IiMxMzVGOUQiIHN0cm9rZT0iIzEzNUY5RCIvPgo8Y2lyY2xlIGN4PSIzOSIgY3k9IjEyMyIgcj0iNi41IiBmaWxsPSIjMTM1RjlEIiBzdHJva2U9IiMxMzVGOUQiLz4KPC9zdmc+Cg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #135f9d } 
+	</style>
+	<g id="Folder 1">
+		<use id="Phonesguy logo" href="#img1" transform="matrix(.52,0,0,.52,-0.255,.239)"/>
+		<path id="Phones Guy" class="s0" aria-label="Phones
+Guy"  d="m103.9 28.1v-13.5h7.2c5.2 0 7.5 2.6 7.5 6.7 0 4.2-2.3 6.8-7.5 6.8zm28-6.8c0-9.9-6.6-17.4-19.8-17.4h-21.4v54.1h13.2v-19.4h8.2c13.7 0 19.8-8.3 19.8-17.3zm6.9 36.7h13.1v-23.3c0-5.9 3.3-9.1 8.3-9.1 5 0 8.2 3.2 8.2 9.1v23.3h13.1v-25.1c0-11.6-6.5-18.3-16.3-18.3-5.9 0-10.6 2.5-13.3 6.2l0.1-19.8h-13.2zm93.9-21.5c0-13.6-9.7-22.1-22.3-22.1-12.6 0-22.3 8.5-22.3 22.1 0 13.7 9.5 22.1 22.1 22.1 12.7 0 22.5-8.4 22.5-22.1zm-31.2 0c0-7.3 4.1-10.7 8.9-10.7 4.6 0 8.9 3.4 8.9 10.7 0 7.3-4.4 10.7-9.1 10.7-4.7 0-8.7-3.4-8.7-10.7zm67.9 21.5h13.1v-25.1c0-11.5-6.7-18.3-16.6-18.3-5.8 0-10.4 2.5-13 6.2v-5.7h-13.2v42.9h13.2v-23.3c0-5.9 3.2-9.1 8.2-9.1 5 0 8.3 3.2 8.3 9.1zm41.2-33c4.4 0 8.1 2.7 8.1 7.3h-16.5c0.7-4.7 4.1-7.3 8.4-7.3zm20.5 18.7h-14c-1.1 2.4-3.1 4.2-6.8 4.2-4.3 0-7.7-2.6-8.2-8.2h29.8c0.2-1.3 0.2-2.7 0.2-3.9 0-13.1-8.8-21.4-21.4-21.4-12.8 0-21.7 8.5-21.7 22.1 0 13.6 9.1 22.1 21.7 22.1 10.7 0 18.3-6.5 20.4-14.9zm42.8 1.8c-0.2-16-23.4-11.2-23.4-18 0-2.1 1.6-3.3 4.7-3.3 3.7 0 6 1.9 6.3 4.8h12.2c-0.8-8.4-7-14.6-18.1-14.6-11.2 0-17.5 6-17.5 13.3 0 15.8 23.4 10.8 23.4 17.7 0 2-1.7 3.5-5.1 3.5-3.6 0-6.3-2-6.6-5h-13.1c0.7 8.3 8.4 14.7 19.8 14.7 10.8 0 17.4-5.6 17.4-13.1zm-257.9 26.8c-16.2 0-27.5 11.4-27.5 27.6 0 16.2 11.4 27.5 27.6 27.5 14.2 0 23.2-9.3 26-18.7v-12.2h-28.7v9.7h16.8c-2 6.1-6.6 9.5-13.1 9.5-9.5 0-15.2-5.8-15.2-15.8 0-9.4 5.6-15.4 14.1-15.4 4.9 0 8.6 1.9 10.6 5.5h14.6c-2.9-11.1-12.3-17.7-25.2-17.7zm75.8 11.7h-13.1v23.4c0 5.8-3.3 9-8.3 9-5 0-8.3-3.2-8.3-9v-23.4h-13.1v25.1c0 11.5 6.7 18.4 16.7 18.4 5.7 0 10.4-2.7 13-6.4v5.9h13.1zm29.3 26.9l-9.9-26.9h-14.7l17.4 41.5-9.8 21.9h14.1l27-63.4h-14.2z"/>
+	</g>
+</svg>
