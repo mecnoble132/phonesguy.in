@@ -12,57 +12,62 @@ document.addEventListener("DOMContentLoaded", function () {
             articlesData = articles;
             displayArticles(articlesData);
         })
-        .catch(error => console.error("Error loading articles:", error));
+        .catch(error => showError("Error loading articles", articlesContainer));
 
     function displayArticles(articles) {
-        articlesContainer.innerHTML = "";
-        articles.forEach(article => {
-            const articleCard = document.createElement("div");
-            articleCard.classList.add("article-card");
-            articleCard.innerHTML = `
-                <img src="${article.image}" alt="${article.title}">
+        articlesContainer.innerHTML = articles.length 
+            ? articles.map(articleTemplate).join("") 
+            : "<p>No articles found.</p>";
+    }
+
+    function articleTemplate(article) {
+        return `
+            <div class="article-card">
+                <img src="${article.image}" alt="${article.title}" loading="lazy">
                 <h3>${article.title}</h3>
                 <p>${article.excerpt}</p>
-                <a href="template.html?id=${article.id}" class="read-more">Read More</a>
-            `;
-            articlesContainer.appendChild(articleCard);
-        });
+                <a href="template.html?id=${encodeURIComponent(article.id)}" class="read-more">Read More</a>
+            </div>
+        `;
     }
 
     // Filter articles based on category
     filterButtons.forEach(button => {
         button.addEventListener("click", function () {
             const category = this.getAttribute("data-category");
-            if (category === "all") {
-                displayArticles(articlesData);
-            } else {
-                const filteredArticles = articlesData.filter(article => article.category === category);
-                displayArticles(filteredArticles);
-            }
+            const filteredArticles = category === "all" 
+                ? articlesData 
+                : articlesData.filter(article => article.category === category);
+            displayArticles(filteredArticles);
         });
     });
 
     // Fetch and display best deals
     fetch("data/deals.json")
         .then(response => response.json())
-        .then(deals => {
-            displayDeals(deals);
-        })
-        .catch(error => console.error("Error loading deals:", error));
+        .then(deals => displayDeals(deals))
+        .catch(error => showError("Error loading deals", dealsContainer));
 
     function displayDeals(deals) {
-        dealsContainer.innerHTML = "";
-        deals.forEach(deal => {
-            const dealCard = document.createElement("div");
-            dealCard.classList.add("deal-card");
-            dealCard.innerHTML = `
-                <img src="${deal.image}" alt="${deal.name}">
+        dealsContainer.innerHTML = deals.length 
+            ? deals.map(dealTemplate).join("") 
+            : "<p>No deals available.</p>";
+    }
+
+    function dealTemplate(deal) {
+        return `
+            <div class="deal-card">
+                <img src="${deal.image}" alt="${deal.name}" loading="lazy">
                 <h3>${deal.name}</h3>
                 <p>${deal.description}</p>
                 <span class="price">${deal.price}</span>
                 <a href="${deal.affiliate_link}" target="_blank" class="buy-now">Buy Now</a>
-            `;
-            dealsContainer.appendChild(dealCard);
-        });
+            </div>
+        `;
+    }
+
+    function showError(message, container) {
+        container.innerHTML = `<p class="error">${message}</p>`;
     }
 });
+
